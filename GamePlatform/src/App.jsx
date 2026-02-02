@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import LandingPage from './modules/LandingPage'
 import NavigationBar from './modules/NavigationBar'
 import GameSelection from './modules/GameSelection'

@@ -5,8 +5,8 @@ function NavigationBar(){
 
     return(
         <>
-            <Link to="/" element={<LandingPage/>}>Home</Link>
-            <Link to="/gameselection" element={<GameSelection/>}>Game Selection</Link>
+            <Link to="/" element={<LandingPage/>}>Home |</Link>
+            <Link to="/gameselection" element={<GameSelection/>}> Game Selection</Link>
         </>
     )
 }
