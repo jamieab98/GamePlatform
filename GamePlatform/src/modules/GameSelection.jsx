@@ -1,9 +1,14 @@
 import {useState} from 'react'
 
 function GameSelection(){
-    const [game, setGame] = useState("")
+    const [game, setGame] = useState("Select Game")
     function gameselect(){
-        console.log(game)
+        if(game == 'Select Game'){
+            console.log('Please select a game')
+        }
+        else{
+            console.log(game)
+        }
     }
 
     return(
