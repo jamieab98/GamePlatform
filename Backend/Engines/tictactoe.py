@@ -47,9 +47,3 @@ class TicTacToe:
         self.board = ["","","","","","","","",""]
         self.next_move = "X"
         self.active = True
-
-t = TicTacToe()
-t.make_move(3)
-t.reset()
-t.make_move(1)
-t.make_move(2)
