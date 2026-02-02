@@ -14,18 +14,25 @@ class TicTacToe:
             print(f"The winner is {winner}")
         elif self.board[3] != "" and self.board[3] == self.board[4] == self.board[5]:
             self.active = False
+            print(f"The winner is {winner}")
         elif self.board[6] != "" and self.board[6] == self.board[7] == self.board[8]:
             self.active = False
+            print(f"The winner is {winner}")
         elif self.board[0] != "" and self.board[0] == self.board[3] == self.board[6]:
             self.active = False
+            print(f"The winner is {winner}")
         elif self.board[1] != "" and self.board[1] == self.board[4] == self.board[7]:
             self.active = False
+            print(f"The winner is {winner}")
         elif self.board[2] != "" and self.board[2] == self.board[5] == self.board[8]:
             self.active = False
+            print(f"The winner is {winner}")
         elif self.board[0] != "" and self.board[0] == self.board[4] == self.board[8]:
             self.active = False
+            print(f"The winner is {winner}")
         elif self.board[2] != "" and self.board[2] == self.board[4] == self.board[6]:
             self.active = False
+            print(f"The winner is {winner}")
 
     def make_move(self, position):
         if self.active == False:
